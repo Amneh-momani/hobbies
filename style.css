@@ -2,9 +2,7 @@ body{
   margin: 0%;}
 
 header{
-  /* height: 90px; */
-  /* display: inline-block; */
-  background-color: f6dcbf;
+  background-color: #f6dcbf;
   height: 80px;
 }
 header nav{
@@ -16,7 +14,6 @@ header nav{
 }
 header li{
     display:inline-block;
-    /* float: right; */
     margin-right: 10px;
 }
 header h1{
