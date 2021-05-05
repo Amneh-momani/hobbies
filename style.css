@@ -2,34 +2,6 @@ body{
   margin: 0%;}
 
 header{
-  background-color: #f6dcbf;
-  height: 80px;
-}
-header nav{
-
-  width: 40%;
-  float: right;
-    margin-top: 26px;
-
-}
-header li{
-    display:inline-block;
-    margin-right: 10px;
-}
-header h1{
-  color: #d44000;
-  float: left;
-  margin-left: 40px;
-  font-size: 50px;
-}
-header li a{
-  font-size:40px;
-  text-decoration: none;
-  color: #e1701a;
-}body{
-  margin: 0%;}
-
-header{
   
   background-color: #f8a488;
   height:100px;
@@ -56,6 +28,7 @@ header li a{
   text-decoration: none;
   color: #e1701a;
 }
+
 
 main{
   background-color:#eeb76b;
