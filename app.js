@@ -48,12 +48,15 @@ var userHoppy=prompt("How many times do you do your hobby a week?");
 
 
       document.write("<h2 style='color:green;text-align:center;'>The "+questionOne+" is a nice hobby</h2>");
-for(var i=0 ; i<=7;i++){
-      if (userHoppy=="art"){
+for(var i=0 ; i<userHoppy;i++){
+  if(userHoppy>7){
+    userHoppy=7;
+  }
+      if (questionOne=="art"){
 document.write("<img src='https://cdn3.iconfinder.com/data/icons/abstract-1/512/Art-512.png'>");  }
-  else if (userHoppy=="travel"){
+  else if (questionOne=="travel"){
 document.write("<img src='https://image.flaticon.com/icons/png/512/1841/1841630.png'>");
-  }else if (userHoppy=="sport"){
+  }else if (questionOne=="sport"){
 document.write("<img src='https://icon-library.com/images/sports-icon/sports-icon-13.jpg'>");
   }else{
 document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uaY8hs0EZ5tGKGEwswJ_czcdFGdBi4qCYA&usqp=CAU'>");
