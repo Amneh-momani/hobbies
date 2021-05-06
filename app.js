@@ -49,7 +49,7 @@ if(userHoppy>7){
   userHoppy=7;
 }
 
-      document.write("<h2 style='color:purpule;text-align:center;'>The "+questionOne+" is a nice hobby</h2>");
+      document.write("<h2 style='color:green;text-align:center;'>The "+questionOne+" is a nice hobby</h2>");
 for(var i=0 ; i<userHoppy;i++){
       if (userHoppy=="art"){
 document.write("<img src='https://cdn3.iconfinder.com/data/icons/abstract-1/512/Art-512.png'>");  }
