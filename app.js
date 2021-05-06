@@ -48,10 +48,9 @@ var userHoppy=prompt("How many times do you do your hobby a week?");
 if(userHoppy>7){
   userHoppy=7;
 }
+
+      document.write("<h2 style='color:purpule;text-align:center;'>The "+questionOne+" is a nice hobby</h2>");
 for(var i=0 ; i<userHoppy;i++){
-    var title=0;
-    for(var j=0;j<=title;j++){
-      document.write("<h2 style='color:purpule;text-align:center;'>The "+questionOne+" is a nice hobby</h2>");}
       if (userHoppy=="art"){
 document.write("<img src='https://cdn3.iconfinder.com/data/icons/abstract-1/512/Art-512.png'>");  }
   else if (userHoppy=="travel"){
