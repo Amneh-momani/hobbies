@@ -53,12 +53,12 @@ for(var i=0 ; i<userHoppy;i++){
     userHoppy=7;
   }
       if (questionOne=="art"){
-document.write("<img src='https://cdn3.iconfinder.com/data/icons/abstract-1/512/Art-512.png'>");  }
+document.write("<img src='https://cdn3.iconfinder.com/data/icons/abstract-1/512/Art-512.png' class='img1'>");  }
   else if (questionOne=="travel"){
-document.write("<img src='https://image.flaticon.com/icons/png/512/1841/1841630.png'>");
+document.write("<img src='https://image.flaticon.com/icons/png/512/1841/1841630.png' class='img1'>");
   }else if (questionOne=="sport"){
-document.write("<img src='https://icon-library.com/images/sports-icon/sports-icon-13.jpg'>");
+document.write("<img src='https://icon-library.com/images/sports-icon/sports-icon-13.jpg' class='img1'>");
   }else{
-document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uaY8hs0EZ5tGKGEwswJ_czcdFGdBi4qCYA&usqp=CAU'>");
+document.write("<img src='https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8uaY8hs0EZ5tGKGEwswJ_czcdFGdBi4qCYA&usqp=CAU' class='img1'>");
   }
 }
