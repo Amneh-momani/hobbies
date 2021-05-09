@@ -64,3 +64,11 @@ footer p{
   height:100px;
   width: 100px;
 }
+
+.cent{
+  margin-left: 450px
+}
+.text{
+  color: white;
+  text-align: center;
+  font-size: 25px;}
