@@ -29,9 +29,9 @@ alert("welcome to my website "+name);
 var result="";
 
   if(age>=20){
- result="<hr><h1 style='color:green;text-align:center;'>Hello "+name+" how are you ,and "+age+" year is a nice age.</h1><h2 style='color:blue;text-align:center;'>your age is elder than 20</h2>";
+ result="<h1 style='color:green;text-align:center;'>Hello "+name+" how are you ,and "+age+" year is a nice age.</h1><h2 style='color:blue;text-align:center;'>your age is elder than 20</h2>";
 }else{
-    result="<hr><h1 style='color:green;text-align:center;'>Hello "+name+" how are you ,and "+age+" year is a nice age.</h1><h2 style='color:blue;text-align:center;'>your age is less than 20</h2>";
+    result="<h1 style='color:green;text-align:center;'>Hello "+name+" how are you ,and "+age+" year is a nice age.</h1><h2 style='color:blue;text-align:center;'>your age is less than 20</h2>";
 }
 
     return result;

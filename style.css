@@ -11,17 +11,26 @@ header nav{
   width: 40%;
   float: right;
     margin-top: 26px;
+    line-height: 20px;
+
+
+}
+
+header ul{
+  margin-left: 100px;
 
 }
 header li{
     display:inline-block;
-    margin-right: 10px;
+    margin-right: 18px;
 }
 header h1{
   color: #d44000;
   float: left;
   margin-left: 40px;
   font-size: 50px;
+  line-height: 30px;
+
 }
 header li a{
   font-size:40px;
@@ -32,6 +41,8 @@ header li a{
 
 main{
   background-color:#eeb76b;
+  margin-top: -20px;
+
 }
 
 main #sec1 h4{
